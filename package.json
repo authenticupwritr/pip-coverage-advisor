@@ -1,7 +1,7 @@
 {
-  "name": "pip-coverage-advisor",
-  "private": true,
+  "name": "michigan-pip-advisor",
   "version": "1.0.0",
+  "description": "Michigan Personal Injury Protection (PIP) Coverage Eligibility & Selection Tool",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,8 +16,8 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.0.0",
-    "autoprefixer": "^10.4.16",
+    "tailwindcss": "^3.4.0",
     "postcss": "^8.4.32",
-    "tailwindcss": "^3.3.6"
+    "autoprefixer": "^10.4.16"
   }
 }

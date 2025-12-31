@@ -1,14 +1,15 @@
-# PIP Coverage Advisor
+# Michigan PIP Coverage Advisor
 
-A personalized Personal Injury Protection (PIP) coverage recommendation tool built with React and Vite.
+A dynamic decision tree tool to help insurance professionals and consumers navigate Michigan's Personal Injury Protection (PIP) coverage options under the state's no-fault auto insurance law.
 
 ## Features
 
-- Step-by-step questionnaire to assess your coverage needs
-- Personalized recommendations based on income, health insurance status, and family situation
-- Work Loss Benefits calculations based on your income
-- Clear priority levels for each recommendation
-- Mobile-responsive design
+- **Step-by-step eligibility determination** based on Medicare, Medicaid, and QHC status
+- **Household member management** with individual coverage tracking
+- **Real-time eligibility calculations** for all 6 PIP options
+- **Educational interstitials** explaining Medicare coverage gaps
+- **Documentation checklist** for required proofs
+- **Print-friendly summary** for client records
 
 ## Tech Stack
 
@@ -17,14 +18,6 @@ A personalized Personal Injury Protection (PIP) coverage recommendation tool bui
 - Tailwind CSS
 - Lucide React Icons
 
-## Deployment
-
-This project is configured for one-click deployment to Vercel:
-
-1. Push to GitHub
-2. Import to Vercel
-3. Deploy automatically
-
 ## Local Development
 
 ```bash
@@ -32,8 +25,16 @@ npm install
 npm run dev
 ```
 
-## Build
+## Deployment to Vercel
 
-```bash
-npm run build
-```
+1. Push to GitHub
+2. Import repository in Vercel
+3. Deploy (auto-detects Vite)
+
+## Based On
+
+Michigan DIFS PIP regulations and the official PIP Selection Form requirements.
+
+## Disclaimer
+
+This tool is for informational purposes only and does not constitute insurance or legal advice.
